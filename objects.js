@@ -8,7 +8,7 @@ function updatePlaylist(playlist, artistName, songTitle) {
 //console.log(updatePlayList(playlist, 'Bonzo', 'Can-Can'))
 
 
-function removeFromPlaylist(artistName) {
+function removeFromPlaylist(playlist, artistName) {
   delete playlist[artistName];
   return playlist;
 }
