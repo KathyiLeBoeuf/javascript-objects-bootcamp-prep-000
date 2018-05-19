@@ -1,4 +1,4 @@
-var playlist = { "Barry Manilow": 'Can\'t Smile Without You' };
+var playlist = { "Barry Manilow": "Can\'t Smile Without You" };
 //console.log(playlist);
 
 function updatePlaylist(playlist, artistName, songTitle) {
